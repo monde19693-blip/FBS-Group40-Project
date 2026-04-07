@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, redirect, url_for, flash, request
 from flask_login import login_required, current_user, login_fresh
 from extensions import db
-from models import Facility, Booking, FacilityRating
+from models import Facility, Booking
 from datetime import date, timedelta
 from functools import wraps
 
